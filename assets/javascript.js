@@ -6,6 +6,19 @@ $(document).ready(function(){
 
     $(".carousel").carousel();
 
+    $(".pic").addClass("animated rollIn");
+
+    $(".collapsible").addClass("animated fadeInRight");
+    
+    $(".carousel").addClass("animated fadeInUp");
+
+    $(".card-image").on("click", function(){
+        alert("you're about to leave this page.")
+    });
+
+
+
+
 
   });
         

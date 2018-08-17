@@ -1,5 +1,21 @@
-.maincontainer{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc2w5fUVZKfyOACc2Db2avcYmY0xAa2Z_bd6l5O3Wm4i2rXYZY);
-    background-size: cover;
-    opacity: 0.68;
+ body{
+    margin-top: 70px; 
+    background-image: url('https://static.wixstatic.com/media/b7deea_229366f4ba1f4ab18c9e3e25bdbfec4f~mv2.png/v1/fill/w_257,h_226,al_c,usm_0.66_1.00_0.01/b7deea_229366f4ba1f4ab18c9e3e25bdbfec4f~mv2.png');
+    background-size: 600px;
+    background-blend-mode: lighten;
+    
+    
+} 
+
+
+
+
+.cardThree{
+    size: 250px;
+}
+
+
+
+.cardSix{
+    size: 250px;
 }
