@@ -1,21 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Noto+Serif|Oleo+Script|Pacifico'); 
+ 
+ .main-container{
+     border-right-style: double;
+     border-right-color: white;
+     border-width: 8px;
+     padding: 15px;
+     border-left-style: double;
+     border-left-color: chartreuse;
+ }
+ .bio{
+     margin-top: 30px;
+     border-style: ridge;
+     border-width: 8px;
+     border-color: rgb(9, 255, 0);
+     background-color: white;
+     opacity: 0.68;
+ }
+ 
+ .bio-text{
+    font-weight: bold;
+ }
+ 
  body{
-    margin-top: 70px; 
-    background-image: url('https://static.wixstatic.com/media/b7deea_229366f4ba1f4ab18c9e3e25bdbfec4f~mv2.png/v1/fill/w_257,h_226,al_c,usm_0.66_1.00_0.01/b7deea_229366f4ba1f4ab18c9e3e25bdbfec4f~mv2.png');
-    background-size: 600px;
+     
+     margin-top: 50px;
+     background-image: url('https://yese69.com/wp-content/uploads/data/2017/12/10/amazing-black-3d-background-1920x1080-WTG200130414.jpg');
+     background-repeat:no-repeat;
+     background-size: cover ;
     background-blend-mode: lighten;
     
     
 } 
+.carousle{
+    height: 200px;
+}
+h1{
+    text-align: center;
+    font-family: Oleo Script;
+    color: white;
+    opacity: 0.65;
+}
 
+.cardOne{
+    size: 300px;
+    border-style: double;
+    border-width: 4px;
+    border-color: red;
 
+}
 
+.cardTwo{
+    size: 300px;
+ 
+}
 
 .cardThree{
-    size: 250px;
+    size: 300px;
+   
+}
+
+.cardFour{
+    size: 300px;   
+}
+
+.cardFive{
+    size: 300px;
+    
 }
 
 
-
 .cardSix{
-    size: 250px;
+   size: 300px;
 }

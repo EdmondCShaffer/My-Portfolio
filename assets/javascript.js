@@ -6,19 +6,25 @@ $(document).ready(function(){
 
     $(".carousel").carousel();
 
-    $(".pic").addClass("animated rollIn");
+    $(".pic").addClass("animated slideInLeft");
 
-    $(".collapsible").addClass("animated fadeInRight");
+    $(".bio").addClass("animated fadeInRight");
     
     $(".carousel").addClass("animated fadeInUp");
 
+    $(".rowOne").addClass("animated zoomIn");
+
     $(".card-image").on("click", function(){
         alert("you're about to leave this page.")
+  
     });
 
+//  setTimeout (function(){
+//     $(".rowOne").addClass("animated zoomIn").removeClass("hide");
+//     }, 400);
 
 
-
+    
 
   });
         
