@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Noto+Serif|Oleo+Script|Pacifico'); 
- 
+
  .main-container{
      border-right-style: double;
      border-right-color: white;
      border-width: 8px;
      padding: 15px;
      border-left-style: double;
-     border-left-color: rgb(9, 255, 0);
+     
  }
  .bio{
      margin-top: 30px;
      border-style: ridge;
      border-width: 8px;
-     border-color: rgb(9, 255, 0);
      background-color: white;
      opacity: 0.6;
  }
@@ -75,9 +74,6 @@ h1{
     text-align: center;
     color:black;
 }
-    
-
-
 
 .cardSix{
    size: 300px;
@@ -87,9 +83,28 @@ h1{
 
 .pic{
     margin-top: 30px;
+    height: 30%;
+    width: 30%;
 }
 
 .cardText{
     text-align: center;
     color:black;
+}
+
+.projectName{
+    text-align: center;
+    color: black;
+}
+body{
+    background-color: brown;
+}
+#bio_text{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: gold;
+};
+li{
+    color: aqua;
 }
