@@ -38,54 +38,76 @@
 
 
     <div class="container main-container">
+        <div>
+
+            <img name="slideBg" style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
+        </div>
         <ul id="slide-out" class="sidenav">
-
-
-
-
-            
-
-
-
             <li>
                 <div class="user-view">
                     <div class="background">
                         <img src="">
                     </div>
                     <a href="#user">
-                        <img class="circle" src="assets/images/profile.jpg">
+                        <img name="slide" class="circle">
                     </a>
                     <a href="#name">
-                        <span class="black-text name">Edmond C Shaffer</span>
+                        <span class="white-text name">Edmond C Shaffer</span>
                     </a>
                     <a href="#email">
-                        <span class="black-text email">Edmond.Shaffer@gmail.com</span>
+                        <span class="white-text email">Edmond.Shaffer@gmail.com</span>
                     </a>
                 </div>
             </li>
             <li>
-                <a href="index.html"><i class="fas fa-home"></i>Home</a>
+                <a href="index.html">
+                    <i id="home" class="fas fa-home fa-2x"></i>
+                    <p class="hsn">Home</p>
+                </a>
             </li>
             <li>
-                <a href="projects.html"><i class="fas fa-project-diagram"></i>Projects</a>
+                <a href="projects.html">
+                    <i id="projects" class="fas fa-project-diagram fa-2x"></i>
+                    <p class="psn">Projects</p>
+                </a>
             </li>
             <li>
-                <a href="contact.html"><i class="fas fa-at fa-2x"></i>Contact</a>
+                <a href="contact.html">
+                    <i id="about" class="fas fa-child fa-2x"></i>
+                    <p class="asn">About</p>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <i id="contact" class="fas fa-at fa-2x"></i>
+                    <p class="csn">Contact</p>
+                </a>
             </li>
         </ul>
         <a href="#" data-target="slide-out" class="sidenav-trigger">
-            <i class="material-icons">menu</i>
+            <i class="material-icons hamburger">menu</i>
         </a>
-        <ul class="social-media">
-            <li><i class="fab fa-github fa-3x"></i></li>
 
-            <li><i class="fab fa-instagram fa-3x"></i></li>
+        <div class "row">
+            <div class="col s2 m4">
+                <div class="social-media">
 
-            <li><i class="fab fa-linkedin fa-3x"></i></li>
-        </ul>
+                    <i class="fab fa-github fa-3x"></i>
+                    <i class="fab fa-instagram fa-3x"></i>
+                    <i class="fab fa-linkedin fa-3x"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s8 m5 push-m3">
+                <h1 id="quotes"></h1>
+            </div>
+
+        </div>
 
         <div class="row">
-            <div class="col s8 m4 push-m4">
+            <div class="col s8 m5 push-m3">
                 <div id="bio_text"></div>
             </div>
         </div>
@@ -147,9 +169,14 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <!-- javaScript -->
+
     <script src="assets/javascript.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script>
+        // frameLooper();
+    </script>
+
 </body>
 
 </html>

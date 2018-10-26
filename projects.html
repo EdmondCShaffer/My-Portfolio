@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>projects</title>
+
 
     <!-- Rest css link -->
     <link rel="stylesheet" href="assets/reset.css">
@@ -28,12 +28,18 @@
     <link rel="stylesheet" href="assets/stlye.css">
     <!-- Hover css link -->
     <link rel="stylesheet" href="assets/hover.css">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
+
+    <title>projects</title>
 </head>
 
 <body>
 
     <div class="container">
+        <img name="slideBg" style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
+
         <ul id="slide-out" class="sidenav">
             <li>
                 <div class="user-view">
@@ -41,33 +47,45 @@
                         <img src="">
                     </div>
                     <a href="#user">
-                        <img class="circle" src="assets/images/profile.jpg">
+                        <img name="slide" class="circle">
                     </a>
                     <a href="#name">
-                        <span class="black-text name">Edmond C Shaffer</span>
+                        <span class="white-text name">Edmond C Shaffer</span>
                     </a>
                     <a href="#email">
-                        <span class="black-text email">Edmond.Shaffer@gmail.com</span>
+                        <span class="white-text email">Edmond.Shaffer@gmail.com</span>
                     </a>
                 </div>
             </li>
             <li>
                 <a href="index.html">
-                    <i class="fas fa-home"></i>Home</a>
+                    <i id="home" class="fas fa-home fa-2x"></i>
+                    <p class="hsn">Home</p>
+                </a>
             </li>
             <li>
                 <a href="projects.html">
-                    <i class="fas fa-project-diagram"></i>Projects</a>
+                    <i id="projects" class="fas fa-project-diagram fa-2x"></i>
+                    <p class="psn">Projects</p>
+                </a>
             </li>
             <li>
                 <a href="contact.html">
-                    <i class="fas fa-at fa-2x"></i>Contact</a>
+                    <i id="contact" class="fas fa-child fa-2x"></i>
+                    <p class="csn">About</p>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <i id="contact" class="fas fa-at fa-2x"></i>
+                    <p class="csn">Contact</p>
+                </a>
             </li>
         </ul>
         <a href="#" data-target="slide-out" class="sidenav-trigger">
-            <i class="material-icons">menu</i>
+            <i class="material-icons hamburger">menu</i>
         </a>
-        
+
 
         <div class="row rowOne">
             <h1>Project's</h1>
@@ -76,30 +94,31 @@
                     <div class="card-image">
                         <a href="https://declanmorrison.github.io/Band-Info-Aggregator/">
                             <img src="https://www.spirit-of-rock.com/cover.php?id_album=58230">
-                            <span class="card-title projectName">Google -</span>
+                            <span class="card-title black-text">Google -</span>
+                            
                         </a>
                     </div>
                 </div>
             </div>
-        
+
             <div class="col s12 m4">
                 <div class="card cardTwo hvr-float-shadow">
                     <div class="card-image">
                         <a href="https://eshaffer5612.github.io/Word-Guess-Game/">
                             <img src="https://i0.wp.com/www.craftcarolina.com/wp-content/uploads/2018/05/dsc04137-2-1-e1527455209566-250x250.jpg?resize=250%2C250">
-                            <span class="card-title projectName">Name That Brew</span>
+                            <span class="card-title black-text">Name That Brew</span>
                         </a>
                     </div>
                 </div>
             </div>
-        
+
             <div class="col s12 m4">
                 <div class="card cardThree hvr-float-shadow">
                     <div class="card-image">
                         <a href="https://eshaffer5612.github.io/TriviaGame/">
                             <img src="https://vignette.wikia.nocookie.net/fantendo/images/c/cc/250px-Mario_SSB4.png/revision/latest?cb=20180802175622">
-                            <div>Profsjdfs</div>
-                            <span class="card-title projectName">Mario Trivia</span>
+                            
+                            <span class="card-title black-text">Mario Trivia</span>
                         </a>
                     </div>
                 </div>
@@ -112,29 +131,29 @@
                     <div class="card-image">
                         <a cardText href="https://eshaffer5612.github.io/unit-4-game/">
                             <img src="https://5.imimg.com/data5/QK/GF/MY-20619576/diamond-stone-250x250.jpg">
-                            <span class="card-title projectName">Card Title</span>
+                            <span class="card-title black-text">Crystal Collector</span>
                         </a>
                     </div>
                 </div>
             </div>
-        
+
             <div class="col s12 m4">
                 <div class="card cardFive hvr-float-shadow">
                     <div class="card-image">
                         <a href="#">
                             <img src="http://charlottenc.gov/cats/rail/PublishingImages/lynx-station.jpg">
-                            <span class="card-title projectName">Card Title</span>
+                            <span class="card-title black-text">Train Scheduler</span>
                         </a>
                     </div>
                 </div>
             </div>
-        
+
             <div class="col s12 m4">
                 <div class="card cardSix hvr-float-shadow">
                     <div class="card-image">
                         <!-- <a href="#">This is a link -->
                         <img src="http://osagegallery.com/image/coming%20soon%202018%20250px.jpg">
-                        <span class="card-title">Loading...</span>
+                        <span class="card-title black-text">Friend Finder</span>
                         </a>
                     </div>
                 </div>
