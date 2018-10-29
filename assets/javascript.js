@@ -1,4 +1,4 @@
-var bio = "Welcome to the amazing portfolio of the nerdy Full Stack developer known as Mondo";
+var bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque natus neque ad autem, aliquid maiores vero amet qui quaerat sint. Pariatur ad eveniet, suscipit ea blanditiis odio perspiciatis in. Incidunt?";
 var bioArry = bio.split("");
 var loopTime;
 function frameLooper() {
