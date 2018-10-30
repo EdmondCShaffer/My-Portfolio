@@ -21,15 +21,6 @@
      opacity: 0.6;
  }
  
- .bio-text{
-    font-weight: bold;
- }
- 
-
-
-.carousle{
-    height: 200px;
-}
 h1{
     text-align: center;
     font-family: Oleo Script;
@@ -58,7 +49,6 @@ h1{
     text-align: center;
     color:black;
 }  
-
 
 .cardFive{
     size: 300px;
@@ -97,24 +87,18 @@ h1{
     text-align: center;
     color:black;
     font-family:Noto Serif;
-
 };
-li{
-    color: aqua;
-}
+
 .circle{
-    
     border-radius:40%
 }
 .sidenav .user-view .circle{
     height: 135px;
     width: 115px;
     text-align: center;
-    
 }
 .circle{
      margin-left: 25px; 
-    
 }
 .sidenav{
     max-width: 250px;
@@ -124,7 +108,6 @@ li{
     float: right;
     color: white;
     opacity: 0.67;
-
 }
 
 #home{
